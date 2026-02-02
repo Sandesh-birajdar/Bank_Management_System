@@ -18,28 +18,25 @@ Eclipse / IntelliJ IDEA
 BMS_Backend_Project
 │
 ├── src
-│ └── main
-│ └── java
-│ └── com
-│ └── bms
-│ ├── client
-│ │ └── Test.java
-│ │
-│ ├── config
-│ │ └── HibernateUtil.java
-│ │
-│ ├── model
-│ │ └── Account.java
-│ │
-│ ├── service
-│ │ └── RBI.java
-│ │
-│ └── serviceimple
-│ └── SBI.java
+│   └── com.bms
+│       ├── client
+│       │   └── Test.java
+│       │
+│       ├── config
+│       │   └── HibernateUtil.java
+│       │
+│       ├── model
+│       │   └── Account.java
+│       │
+│       ├── service
+│       │   └── RBI.java
+│       │
+│       └── serviceimple
+│           └── SBI.java
 │
 ├── JRE System Library [JavaSE-23]
 ├── Referenced Libraries
-└── pom.xml
+└── 
 
 
 ## Description
