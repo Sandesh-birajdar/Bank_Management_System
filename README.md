@@ -15,30 +15,67 @@ MySQL Database
 
 Eclipse / IntelliJ IDEA
 
-📂 Project Structure
 BMS_Backend_Project
 │
 ├── src
-│   └── com.bms
-│       ├── client
-│       │   └── Test.java
-│       │
-│       ├── config
-│       │   └── HibernateUtil.java
-│       │
-│       ├── model
-│       │   └── Account.java
-│       │
-│       ├── service
-│       │   └── RBI.java
-│       │
-│       └── serviceimple
-│           └── SBI.java
+│ └── main
+│ └── java
+│ └── com
+│ └── bms
+│ ├── client
+│ │ └── Test.java
+│ │
+│ ├── config
+│ │ └── HibernateUtil.java
+│ │
+│ ├── model
+│ │ └── Account.java
+│ │
+│ ├── service
+│ │ └── RBI.java
+│ │
+│ └── serviceimple
+│ └── SBI.java
 │
 ├── JRE System Library [JavaSE-23]
 ├── Referenced Libraries
 └── pom.xml
 
+
+## Description
+
+- `src/main/java/com/bms/client` – Contains the test or main classes to run the project.  
+- `src/main/java/com/bms/config` – Configuration classes (e.g., Hibernate setup).  
+- `src/main/java/com/bms/model` – Data models like `Account.java`.  
+- `src/main/java/com/bms/service` – Service interfaces, e.g., `RBI.java`.  
+- `src/main/java/com/bms/serviceimple` – Service implementations, e.g., `SBI.java`.  
+- `pom.xml` – Maven project file managing dependencies and build.  
+
+## How to Build & Run
+
+1. Clone the repository:  
+   ```bash
+   git clone <repository-url>
+
+
+Navigate to the project folder:
+
+cd BMS_Backend_Project
+
+
+Build the project using Maven:
+
+mvn clean install
+
+
+Run your main class (e.g., Test.java) from your IDE or terminal.
+
+This structure keeps your project organized, maintainable, and ready for GitHub display.
+
+
+If you want, I can also **enhance it with collapsible folders** using GitHub’s `[details]` tag so the structure looks like an **expandable tree**, which is super clean in `README.md`.  
+
+Do you want me to do that version too?
 🧱 Package Description
 🔹 com.bms.client
 
