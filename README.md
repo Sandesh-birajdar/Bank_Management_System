@@ -49,7 +49,7 @@ BMS_Backend_Project
 - `src/main/java/com/bms/model` – Data models like `Account.java`.  
 - `src/main/java/com/bms/service` – Service interfaces, e.g., `RBI.java`.  
 - `src/main/java/com/bms/serviceimple` – Service implementations, e.g., `SBI.java`.  
-- `pom.xml` – Maven project file managing dependencies and build.  
+
 
 ## How to Build & Run
 
